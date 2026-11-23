@@ -14,6 +14,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python ps5_monitor.py
+      - run: cp sito.html index.html
       - run: |
           git config user.name "prezzi-bot"
           git config user.email "bot@users.noreply.github.com"
